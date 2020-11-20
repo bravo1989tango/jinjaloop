@@ -62,7 +62,7 @@ tizedik = filmek("The Lord of the Rings: The Fellowship of the Ring",
                  "and save Middle-earth from the Dark Lord Sauron.",
                  "https://www.imdb.com/title/tt0120737/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=57QNAAWK9P8J65TW50G6&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_10")
 
-@app.route("/")
+@app.route("jinjaloophazi.herokuapp.com")
 def index():
     filmek=[elso,masodik,harmadik,negyedik,otodik,hatodik,hetedik,nyolcadik,kilencedik,tizedik]
     return render_template("table.html", filmek = filmek)
